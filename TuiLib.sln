@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuiLib", "TuiLib\TuiLib.csproj", "{74608FB4-3A56-42B0-A771-C8EF11EB9B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuiLib.Demo", "TuiLib.Demo\TuiLib.Demo.csproj", "{3855C290-8DF7-4E22-A2C5-1824BCFD8D82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74608FB4-3A56-42B0-A771-C8EF11EB9B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74608FB4-3A56-42B0-A771-C8EF11EB9B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74608FB4-3A56-42B0-A771-C8EF11EB9B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74608FB4-3A56-42B0-A771-C8EF11EB9B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3855C290-8DF7-4E22-A2C5-1824BCFD8D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3855C290-8DF7-4E22-A2C5-1824BCFD8D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3855C290-8DF7-4E22-A2C5-1824BCFD8D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3855C290-8DF7-4E22-A2C5-1824BCFD8D82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+<UserControl xmlns="https://github.com/tuilib"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             HorizontalAlignment="Center"
+             VerticalAlignment="Center">
+
+    <Border Title="Confirm"
+            BorderThickness="1"
+            BorderStyle="Double"
+            BorderBrush="Accent"
+            Background="#202024"
+            Padding="2,1">
+
+        <StackPanel Spacing="1">
+
+            <TextBlock x:Name="MessageText"/>
+
+            <StackPanel Orientation="Horizontal"
+                        Spacing="2"
+                        HorizontalAlignment="Right">
+
+                <Button Click="OnYesClick">Yes</Button>
+
+                <Button Click="OnNoClick">No</Button>
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</UserControl>
